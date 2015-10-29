@@ -10,7 +10,7 @@ GLOBAL.portal = {};
 
 var mongoose = require ('mongoose');
 var apiRoutes = require('./routes/index');
-var port = process.env.port || 3000;
+var port = process.env.PORT || 3000;
 
 // mongoose.connect(process.env.MONGOLAB_URI || 'mongodb://192.168.1.13/myOffer');
 // mongoose.connection.on ('error', console.error.bind (console, 'connection error:'));
