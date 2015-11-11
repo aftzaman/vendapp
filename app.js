@@ -4,7 +4,7 @@ var favicon = require ('serve-favicon');
 var logger = require ('morgan');
 var cookieParser = require ('cookie-parser');
 var bodyParser = require ('body-parser');
-var crypto = require ('crypto');
+// var crypto = require ('crypto');
 
 GLOBAL.portal = {};
 
@@ -27,8 +27,8 @@ app.all('*', function (req, res, next) {
 });
 
 // view engine setup
-app.set ('views', path.join (__dirname, 'views'));
-app.set ('view engine', 'jade');
+// app.set ('views', path.join (__dirname, 'views'));
+// app.set ('view engine', 'jade');
 
 // uncomment after placing your favicon in /public
 //app.use(favicon(__dirname + '/public/favicon.ico'));
